@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.Application", "Prestige.Application\Prestige.Application.csproj", "{84BFFEF5-6C77-41B9-AA2C-2A7246CF991D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.Core", "Prestige.Core\Prestige.Core.csproj", "{7F42001C-D9D3-4D57-A7F6-903E3F97D214}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Prestige.Database", "Prestige.Database\Prestige.Database.sqlproj", "{CBD3554A-4EE3-40D9-ACBD-AE6F8DB67554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.UnitTest", "Prestige.UnitTest\Prestige.UnitTest.csproj", "{C1D9410B-9972-4450-8D25-DA5213AB47F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,10 +31,10 @@ Global
 		{CBD3554A-4EE3-40D9-ACBD-AE6F8DB67554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD3554A-4EE3-40D9-ACBD-AE6F8DB67554}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBD3554A-4EE3-40D9-ACBD-AE6F8DB67554}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{4D01C4F0-1CC2-4E41-B6CD-3C9EFE1A30DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D01C4F0-1CC2-4E41-B6CD-3C9EFE1A30DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D01C4F0-1CC2-4E41-B6CD-3C9EFE1A30DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D01C4F0-1CC2-4E41-B6CD-3C9EFE1A30DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D9410B-9972-4450-8D25-DA5213AB47F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D9410B-9972-4450-8D25-DA5213AB47F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D9410B-9972-4450-8D25-DA5213AB47F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D9410B-9972-4450-8D25-DA5213AB47F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using Prestige.Core.Authorization;
+using Prestige.Core.Authorization;
 
 namespace Prestige.Application
 {
@@ -47,8 +47,8 @@ namespace Prestige.Application
 
         public static  void GetInfo()
         {
-            //AuthManager _authManager = new AuthManager();
-            //Console.WriteLine(_authManager.GetInfo());
+            AuthManager _authManager = new AuthManager();
+            Console.WriteLine(_authManager.GetInfo());
         }
 
         public static void Stop()
